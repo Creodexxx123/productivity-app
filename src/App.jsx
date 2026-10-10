@@ -1,9 +1,17 @@
-import Navbar from './components/Navbar/Navbar-component';
+import './App.css';
+import MainCard from './components/Card/main-card-component';
 
 function App() {
   return (
-    <div>
-      <Navbar />
+    <div className="app-container">
+        <nav className="navbar">
+          
+        </nav>
+        
+        <main className="main-content">
+          <MainCard>
+          </MainCard>
+        </main>
     </div>
   )
 }
